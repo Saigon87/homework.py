@@ -1,0 +1,11 @@
+x1 = int(input())
+y1 = int(input())
+z1 = int(input())
+x2 = int(input())
+y2 = int(input())
+z2 = int(input())
+cord1 = max(x1, x2) - min(x1, x2)
+cord2 = max(y1, y2) - min(y1, y2)
+cord3 = max(z1, z2) - min(z1, z2)
+cord4 = (cord1 **2 + cord2 **2 + cord3 **2)**0.5
+print(cord4)
